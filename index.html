@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
+
         <link rel="stylesheet" href="styles.css" />
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -49,7 +54,7 @@
                 <div class="landing-title">
                     <h3>Hi, I am</h3>
                     <h1>Vusumzi Msengana</h1>
-                    <h2>&lt; full-stack web developer \&gt;</h2>
+                    <h2>&lt; Full-Stack Web Developer \&gt;</h2>
                 </div>
                 <ul class="social-media">
                     <li class="media">
@@ -280,7 +285,7 @@
 
                         <div class="resume-info">
                             <h4>Matric</h4>
-                            <p class="date">2011-2016</p>
+                            <p class="date">2012-2016</p>
                             <p class="institution">
                                 Malikhanye Senior Secondary School
                             </p>
@@ -340,7 +345,7 @@
         </section>
         <section id="projects" class="pad">
             <div class="title">
-                <h2>Projects</h2>
+                <h2>Portfolio</h2>
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Recusandae, ea hic dolor voluptatum omnis aliquid facilis,
@@ -348,6 +353,42 @@
                     ducimus natus? Unde consequuntur omnis quisquam voluptate a
                     nostrum exercitationem repellat deleniti!
                 </p>
+            </div>
+
+            <div class="projects">
+                <div class="project-column">
+                    <div class="project" data-aos="zoom-in-down">
+                        <a href="https://aquamarine-pasca-52e75d.netlify.app/">
+                            <img
+                                src="./images/calc.PNG"
+                                alt="calculator-image"
+                                srcset=""
+                            />
+                        </a>
+                    </div>
+                </div>
+                <div class="project-column">
+                    <div class="project" data-aos="zoom-in-down">
+                        <a href="https://tubular-centaur-d944b7.netlify.app/">
+                            <img
+                                src="./images/holiday-destination.PNG"
+                                alt="calculator-image"
+                                srcset=""
+                            />
+                        </a>
+                    </div>
+                </div>
+                <div class="project-column">
+                    <div class="project" data-aos="zoom-in-down">
+                        <a href="#landing">
+                            <img
+                                src="./images/portfolio.PNG"
+                                alt="calculator-image"
+                                srcset=""
+                            />
+                        </a>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="contact" class="pad">
@@ -484,5 +525,12 @@
                 </p>
             </div>
         </footer>
+
+        <!-- SCRIPTS -->
+        <!-- For animation -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
