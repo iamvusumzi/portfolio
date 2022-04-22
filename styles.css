@@ -46,6 +46,13 @@ a.link i {
     font-size: 12pt;
 }
 
+.nav-button {
+    display: none;
+    background-color: transparent;
+    font-size: 28px;
+    border: none;
+}
+
 /* Landing Styles */
 #landing {
     display: flex;
@@ -434,4 +441,34 @@ footer .header p {
 [data-aos][data-aos][data-aos-duration="400"],
 body[data-aos-duration="400"] [data-aos] {
     transition-duration: 2s;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 992px) {
+    /* Navigation */
+    .nav-links {
+        display: none;
+    }
+
+    .nav-button {
+        display: flex;
+    }
+
+    #navbar {
+        display: flex;
+    }
+
+    #landing {
+        justify-content: center;
+    }
+
+    #landing .social-media {
+        justify-content: center;
+    }
+    .align {
+        padding: 0;
+        justify-content: center;
+        text-align: center;
+    }
 }
