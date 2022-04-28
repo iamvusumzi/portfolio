@@ -424,6 +424,7 @@ footer h2 {
 }
 
 footer .header p {
+    padding: 0 1rem;
     margin-top: 0.5rem;
     font-style: italic;
 }
@@ -475,18 +476,6 @@ body[data-aos-duration="400"] [data-aos] {
         margin: 0;
         padding: 1.5rem;
     }
-
-    /* Navigation */
-    /* .navbar {
-        right: 10px;
-        top: 10px;
-        z-index: 9998;
-        align-items: flex-start;
-        border: none;
-    }
-    .navbar-toggler {
-        border: none;
-    } */
 
     /* Landing */
 
