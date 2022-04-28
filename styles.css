@@ -548,4 +548,51 @@ body[data-aos-duration="400"] [data-aos] {
         padding: 0.5rem;
         list-style-type: none;
     }
+
+    /* Skills */
+    .skills-content {
+        flex-direction: column;
+    }
+
+    .skills-box {
+        width: 100%;
+    }
+
+    .skills-box .skills {
+        margin-bottom: 0;
+    }
+
+    /* resume */
+    .resume-content {
+        flex-direction: column;
+    }
+
+    .resume-column {
+        width: 100%;
+    }
+
+    /* Portfolio */
+
+    .projects {
+        flex-direction: column;
+    }
+
+    .project-column {
+        text-align: center;
+        width: 100%;
+    }
+
+    /* Contact */
+
+    .contact-content {
+        flex-direction: column;
+    }
+
+    #contact .info {
+        width: 100%;
+    }
+
+    #contact form {
+        width: 100%;
+    }
 }
